@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+
+.lineLight {
+  stroke: #333336;
+}
+text {
+  fill: #8b8b8e;
+}
+
+@tailwind utilities;
