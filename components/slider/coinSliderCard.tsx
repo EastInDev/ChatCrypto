@@ -26,7 +26,7 @@ const CoinSliderCard: React.FC<Props> = ({ data, isLoading }) => {
           <div className="flex flex-row items-center justify-between px-3 pt-3">
             <div className="flex flex-row items-center">
               <Image
-                alt=" "
+                alt=""
                 src={data?.data?.coin.iconUrl}
                 width={32}
                 height={32}

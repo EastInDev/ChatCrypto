@@ -10,7 +10,7 @@ export const CoinColumns = [
     accessor: "iconUrl",
     Cell: ({ value }: ColumnProps) => (
       <div className=" flex justify-end">
-        <Image alt="" src={value} className=" w-5 h-5" />
+        <Image alt="" src={value} width={20} height={20} />
       </div>
     ),
   },
