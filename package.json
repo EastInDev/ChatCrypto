@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@apollo/client": "^3.2.7",
-    "@netlify/plugin-nextjs": "^5.0.0",
+    "@netlify/plugin-nextjs": "^3.9.2",
     "@reduxjs/toolkit": "^1.6.2",
     "@types/lodash": "^4.14.178",
     "@types/react-table": "^7.7.9",
