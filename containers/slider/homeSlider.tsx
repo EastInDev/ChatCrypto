@@ -40,16 +40,8 @@ const HomeSlider: React.FC<Props> = ({ data }) => {
   };
 
   return (
-    <div style={{ width: "83.333333%" }}>
-      <h3
-        style={{
-          paddingTop: "1.25rem" /* 20px에 해당 */,
-          paddingBottom: "1.25rem" /* 20px에 해당 */,
-          fontSize: "1.875rem" /* 30px에 해당 */,
-          lineHeight: "2.25rem" /* 36px에 해당 */,
-          fontWeight: "800" /* font-extrabold에 해당 */,
-        }}
-      >
+    <div className="w-10/12">
+      <h3 className=" py-5 text-3xl font-extrabold">
         Today Cryptos Transaction Price
       </h3>
       <div
