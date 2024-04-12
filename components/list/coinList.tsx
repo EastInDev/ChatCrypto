@@ -84,7 +84,7 @@ export const CoinList: React.FC<Props> = ({ columns, data, onClick }) => {
               <th></th>
               <th>Price</th>
               <th>Change</th>
-              <th>Volume</th>
+              <th>24hVolume</th>
             </tr>
           </thead>
           <tbody {...getTableProps()}>

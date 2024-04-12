@@ -51,7 +51,7 @@ export const CoinColumns = [
     ),
   },
   {
-    accessor: "volume",
+    accessor: "24hVolume",
     Cell: ({ value }: ColumnProps) => (
       <div className=" flex justify-end">
         <h3>{MilBilCal(parseFloat(value)) + ["[USD]"]}</h3>

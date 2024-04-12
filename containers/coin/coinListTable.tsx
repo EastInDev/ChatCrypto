@@ -105,12 +105,12 @@ const CoinListTable: React.FC<Props> = ({}) => {
         <h3>Ranking</h3>
         <h3>{handleCoinData(selectedCoin).rank.toLocaleString()}</h3>
       </div>
-      <div className=" flex flex-col ml-5 text-yellow-500 ">
+      {/* <div className=" flex flex-col ml-5 text-yellow-500 ">
         <h3>Total Supply</h3>
         <h3 className=" text-white">
           {MilBilCal(handleCoinData(selectedCoin).totalSupply)}
         </h3>
-      </div>
+      </div> */}
     </div>
   );
 };

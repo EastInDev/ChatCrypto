@@ -42,7 +42,7 @@ const CoinInfoCard: React.FC<Props> = ({ data, title }) => {
               "$"}
         </h3>
         <h3 className=" text-sm text-gray-500 py-2">
-          {"24H Turnover" + " " + MilBilCal(data.volume) + "[USD]"}
+          {"24H Turnover" + " " + MilBilCal(data["24hVolume"]) + "[USD]"}
         </h3>
       </div>
     </div>
